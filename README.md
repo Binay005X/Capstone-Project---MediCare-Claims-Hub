@@ -135,3 +135,95 @@ WHERE (
 +(OtherPhysician IS NOT NULL AND OtherPhysician <> '')) >= 2;
 
 ```
+
+
+# 📊 Phase 2: Interactive Dashboards – Power BI or Tableau
+
+# Project Overview
+
+This is Phase 2 of the MediCare Claims Hub capstone project, focusing on interactive dashboarding using Power BI or Tableau.
+The goal is to provide leadership with data-driven visual insights into claims patterns, provider performance, beneficiary demographics, and time-based utilization trends.
+
+The dashboards empower users to explore claims data dynamically and support strategic decision-making in healthcare claims management.
+
+# 🗂️ Dashboard Navigation
+
+The solution is designed with a clean landing page and navigation buttons to guide stakeholders across five key sections:
+
+- Claims Overview
+
+- Provider Analysis
+
+- Demographic Insights
+
+- Trends Over Time
+
+- Fraud Indicator
+
+<img width="1307" height="732" alt="Screenshot 2025-08-20 164333" src="https://github.com/user-attachments/assets/af709405-3cb1-427b-9464-3481a1478beb" />
+
+
+
+# 🏥 Claims Overview
+
+Total Reimbursement: Split by inpatient vs. outpatient claims.
+
+Distribution of Claim Amounts: Identify typical vs. outlier claims.
+
+KPIs
+
+- Total Claims Processed
+
+- Average Claim Amount
+
+- Inpatient vs Outpatient Claim Counts
+
+<img width="1302" height="735" alt="Screenshot 2025-08-20 100839" src="https://github.com/user-attachments/assets/d868bf19-4f95-4e92-8ecf-1d6dc4c15560" />
+
+
+# 🩺 Provider Analysis
+
+Top Providers: Ranked by claim volume and reimbursement value.
+
+High-Value Claims: Highlight providers with claims > $10,000 in 2009.
+
+KPIs
+
+- Active Providers
+
+- Total Reimbursements Managed
+
+<img width="1303" height="734" alt="Screenshot 2025-08-20 104831" src="https://github.com/user-attachments/assets/42c7ec02-8b65-4824-807c-5c8dab6b3b1a" />
+
+
+# 👥 Demographic Insights
+
+Breakdown by Gender & Race: Patient diversity view.
+
+Chronic Condition Prevalence: % of beneficiaries with diabetes, etc.
+
+Deductibles: Avg deductible for seniors (65+).
+
+KPIs
+
+- Number of Unique Beneficiaries
+
+- Avg Deductible for Seniors (65+)
+
+<img width="1306" height="735" alt="Screenshot 2025-08-20 111807" src="https://github.com/user-attachments/assets/d4f0d84d-70a2-456d-8d7b-bc76df7c0d05" />
+
+
+📈 Trends Over Time
+
+Claims & Reimbursement Trends: Monthly/quarterly analysis.
+
+Inpatient vs Outpatient Trends: Identify utilization shifts.
+
+KPIs
+
+- Average Claim Amount by Month
+
+- Peak Claim Months/Quarters
+
+<img width="1307" height="732" alt="Screenshot 2025-08-20 112341" src="https://github.com/user-attachments/assets/7bac3edc-974f-4406-b005-948f915a6427" />
+
