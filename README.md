@@ -1,6 +1,7 @@
 # Capstone-Project---MediCare-Claims-Hub
 
-# Data Analytics & Machine Learning at MediCare Claims Hub
+# Phase 1: Advanced SQL Analysis – Healthcare Claims
+
 # Project Overveiw
 
 This capstone simulates analytics at a healthcare claims organization in the U.S., using multi-table claims data (Beneficiary, Inpatient, Outpatient, Provider) to answer business questions and build fraud-focused ML models.
