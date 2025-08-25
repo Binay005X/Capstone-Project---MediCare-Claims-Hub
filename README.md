@@ -39,7 +39,7 @@ LIMIT 5;
 
 ```
 
-## #Q3. Find the total number of beneficiaries with claims indicating chronic conditions such as diabetes (ChronicCond_Diabetes = 1)
+## Q3. Find the total number of beneficiaries with claims indicating chronic conditions such as diabetes (ChronicCond_Diabetes = 1)
 
 Total beneficiaries with diabetes-related claims (ChronicCond_Diabetes = 1)
 
@@ -227,3 +227,7 @@ KPIs
 
 <img width="1307" height="732" alt="Screenshot 2025-08-20 112341" src="https://github.com/user-attachments/assets/7bac3edc-974f-4406-b005-948f915a6427" />
 
+
+# 🤖 Phase 3: Predictive Analytics – Fraud Detection with Python
+
+https://github.com/Binay005X/Capstone-Project---MediCare-Claims-Hub/blob/main/Medicare_Claims_hub_md_1.ipynb
