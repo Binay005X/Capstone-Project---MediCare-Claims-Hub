@@ -11,7 +11,7 @@ Phase 1 focuses on Advanced SQL to quantify reimbursements, profile providers, s
 
 # Questions
 
-Q1. Retrieve the total amount reimbursed for inpatient claims (InscClaimAmtReimbursed), grouped by provider.
+## Q1. Retrieve the total amount reimbursed for inpatient claims (InscClaimAmtReimbursed), grouped by provider.
 
 Total reimbursed for inpatient claims, grouped by provider
 
@@ -24,7 +24,7 @@ GROUP BY provider;
 
 ```
 
-Q2. Identify the top 5 providers with the highest number of outpatient claims.
+## Q2. Identify the top 5 providers with the highest number of outpatient claims.
 
 Top 5 providers by count of outpatient claims
 
@@ -39,7 +39,7 @@ LIMIT 5;
 
 ```
 
-Q3. Find the total number of beneficiaries with claims indicating chronic conditions such as diabetes (ChronicCond_Diabetes = 1)
+## #Q3. Find the total number of beneficiaries with claims indicating chronic conditions such as diabetes (ChronicCond_Diabetes = 1)
 
 Total beneficiaries with diabetes-related claims (ChronicCond_Diabetes = 1)
 
@@ -51,7 +51,7 @@ WHERE ChronicCond_Diabetes = 1;
 
 ```
 
-Q4. Calculate the average inpatient claim amount reimbursed by gender.
+## Q4. Calculate the average inpatient claim amount reimbursed by gender.
 
 Average inpatient claim reimbursement by gender
 
@@ -66,7 +66,7 @@ GROUP BY Gender;
 
 ```
 
-Q5. Retrieve all claims (inpatient & outpatient) for a given BeneID, to enable individual beneficiary case history reviews.
+## Q5. Retrieve all claims (inpatient & outpatient) for a given BeneID, to enable individual beneficiary case history reviews.
 
 Retrieve full claim history (inpatient & outpatient) for a given BeneID
 
@@ -82,7 +82,7 @@ WHERE BeneID = 'BENE11725';
 
 ```
 
-Q6. Identify providers with claims where the admission date is in 2009 and the reimbursed amount exceeds $10,000.
+## Q6. Identify providers with claims where the admission date is in 2009 and the reimbursed amount exceeds $10,000.
 
 Providers with admissions in 2009 AND reimbursed amount > $10,000
 
@@ -95,7 +95,7 @@ AND InscClaimAmtReimbursed > 10000;
 
 ```
 
-Q7. Combine beneficiary demographics with inpatient claims to calculate the average deductible amount (IPAnnualDeductibleAmt) for beneficiaries aged 65 and above.
+## Q7. Combine beneficiary demographics with inpatient claims to calculate the average deductible amount (IPAnnualDeductibleAmt) for beneficiaries aged 65 and above.
 
 Average inpatient deductible (IPAnnualDeductibleAmt) for beneficiaries aged 65+
 
@@ -109,7 +109,7 @@ WHERE TIMESTAMPDIFF(YEAR, bf.DOB, CURDATE()) >= 65;
 
 ```
 
-Q8. List all claims involving more than one physician (i.e., where AttendingPhysician, OperatingPhysician, or OtherPhysician are non-null simultaneously).
+## Q8. List all claims involving more than one physician (i.e., where AttendingPhysician, OperatingPhysician, or OtherPhysician are non-null simultaneously).
 
 Claims involving more than one physician simultaneously
 
