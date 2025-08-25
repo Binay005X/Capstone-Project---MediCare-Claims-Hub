@@ -230,4 +230,20 @@ KPIs
 
 # 🤖 Phase 3: Predictive Analytics – Fraud Detection with Python
 
+# Project Overview
+
+This phase focuses on building a predictive machine learning model to detect potentially fraudulent healthcare claims at MediCare Claims Hub. By leveraging claim-level attributes such as reimbursement amounts, provider activity, physician involvement, chronic conditions, and claim types, the model helps flag high-risk claims for proactive investigation. The outcome supports both financial loss mitigation and improved compliance monitoring in the healthcare claims ecosystem.
+
+# Questions
+
+- Can claims be reliably classified as fraudulent vs. non-fraudulent using historical data?
+
+- Which features (e.g., claim amount, provider, chronic conditions) are the strongest indicators of fraud?
+
+- How effective are different machine learning models (Logistic Regression, Decision Trees, Random Forests) in predicting fraud?
+
+- What key patterns emerge in fraudulent claims, and how can these insights improve investigation workflows at MediCare Claims Hub?
+
+## Github file:
+
 https://github.com/Binay005X/Capstone-Project---MediCare-Claims-Hub/blob/main/Medicare_Claims_hub_md_1.ipynb
